@@ -1,0 +1,147 @@
+body{
+    background-color: #f6f0f0;
+}
+
+
+#main{
+    display:flex;
+    border-radius: 10px;
+    box-shadow: 0px 2px #9d9c9c;
+    width: 60%;
+    height: 90%;
+    margin:auto;
+    
+}
+.result-container{
+    display:flex;
+    flex-direction: column;
+    background-image:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius:10px;
+    color:hsl(241, 100%, 89%);
+    
+}
+#result-header{
+    text-align: center;
+    
+}
+
+.circle > h1, .description > h1{
+    color: #fff;
+}
+
+.circle{
+    width:7rem;
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    margin:auto;
+    
+}
+
+.circle>h1 , .circle>p {
+    text-align: center;
+    color: #fff;
+}
+
+
+.description>h1, .description>p{
+    text-align:center;
+}
+
+.description>p{
+    width:70%;
+    margin:auto;
+}
+
+
+/* Summary  */
+
+.summary-container{
+    width:80%;
+    display:flex;
+    flex-direction: column; 
+    margin-left: 1rem;
+
+}
+
+.summary-title{
+   margin-left:1rem; 
+}
+
+.summary-box{
+    display:flex;
+    justify-content: space-between;
+    background-color:#aaa;
+    border-radius:10px;
+    margin-bottom: 5px;
+    margin:auto;
+    width:90%;
+  
+}
+
+.summary-status{
+    color: #a5a4a4;
+    /* padding:0 10px 0 10px; */
+}
+.up-status{
+    color: hsl(224, 30%, 27%);
+    
+}
+
+.summary-number{
+    display: flex;
+    padding: 0 5px 0 5px;
+}
+
+
+
+.summary-box-1{
+    background-color: hsla(0, 100%, 67%, 4%);
+}
+.summary-box-2{
+    background-color: hsla(39, 100%, 56%, 4%);
+}
+.summary-box-3{
+    background-color: hsla(166, 100%, 37%, 4%);
+}
+.summary-box-4{
+    background-color: hsla(234, 85%, 45%, 4%);
+}
+
+#btn{
+    margin:auto;
+    border-radius: 20px;
+    width:90%;
+    background-color: hsla(256, 72%, 46%, 1);
+    border: #fff;
+    color:#fff;
+    padding: 10px 0px;
+    font-weight: 700;
+}
+
+.image-icon{
+    display: flex;
+    padding:0 10px 0 10px;
+    
+}
+
+#reaction-name{
+    color: hsl(0, 100%, 67%);
+}
+#memory-name{
+    color: hsl(39, 100%, 56%);
+
+}
+
+#verbal-name{
+    color:hsl(166, 100%, 37%);
+
+}
+
+#visual-name{
+    color:hsl(234, 85%, 45%);
+}
+
+.summary-name{
+    margin-left: 15px;
+}
+

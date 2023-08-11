@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css" />
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+ <main id="main">
+
+  <div class="result-container">
+    <h3 id ='result-header'>Your Result</h3>
+    <div class="circle">
+      <h1>76</h1>
+      <p>of 100</p>
+    </div>
+    <div class="description">
+      <h1>Great</h1>
+      <p>You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+  </div>
+  <!--end of result-->
+
+  <div class="summary-container">
+    <h3 class="summary-title">Summary</h3>
+    <div class="summary-box summary-box-1">
+      <div class="image-icon">
+        <img src="assets/images/icon-reaction.svg" alt="">
+        <p id="reaction-name" class="summary-name">Reaction</p>
+      </div>
+      <div class="summary-number">
+        <p class="up-status">80</p><p class="summary-status">/100</p>
+      </div>
+      
+    </div>
+
+    <div class="summary-box summary-box-2">
+      <div class="image-icon">
+        <img src="assets/images/icon-memory.svg" alt="">
+        <p id="memory-name" class="summary-name">Memory</p>
+      </div>
+      <div class="summary-number">
+        <p class="up-status">92</p><p class="summary-status">/100</p>
+      </div>
+    </div>
+
+    <div class="summary-box summary-box-3">
+      <div class="image-icon">
+        <img  src="assets/images/icon-verbal.svg" alt="">
+        <p id="verbal-name" class="summary-name">Verbal</p>
+      </div>
+      <div class="summary-number">
+        <p class="up-status">61</p><p class="summary-status">/100</p>
+      </div>
+    </div>
+
+    <div class="summary-box summary-box-4">
+      <div class="image-icon">
+        <img src="assets/images/icon-visual.svg" alt="">
+        <p id="visual-name" class="summary-name">Visual</p>
+      </div>
+      <div class="summary-number">
+        <p class="up-status">72</p><p class="summary-status"> /100</p>
+      </div>
+    </div>
+    <button id="btn">Continue</button>
+  </div>
+
+ </main>
+</body>
+</html>
