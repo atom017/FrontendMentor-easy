@@ -145,3 +145,13 @@ body{
     margin-left: 15px;
 }
 
+
+
+/* Responsive Design */
+
+@media only screen and (max-width: 600px) {
+   main{
+    flex-direction: column;
+   }
+   
+}
